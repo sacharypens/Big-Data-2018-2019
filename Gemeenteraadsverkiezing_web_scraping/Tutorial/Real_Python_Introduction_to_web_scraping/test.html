@@ -1,0 +1,364 @@
+<!doctype html>
+
+<!--[if lt IE 7]><html class="no-js ie6 oldie" lang="en"><![endif]-->
+<!--[if IE 7]><html class="no-js ie7 oldie" lang="en"><![endif]-->
+<!--[if IE 8]><html class="no-js ie8 oldie" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head><meta charset="utf-8"/> <meta http-equiv="PRAGMA" content="NO-CACHE"/> <meta http-equiv="CACHE-CONTROL" content="NO-CACHE"/> <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/> <title>Startpagina | Lokale verkiezingen 2012</title> <meta name="description" content="Uitslagen Lokale Verkiezingen 2012"/> <meta name="author" content=""/> <meta name="viewport" content="user-scalable=yes"/> <link rel="apple-touch-icon" href="apple-touch-icon-iphone.png"/> <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png"/> <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png"/> <link rel="stylesheet" href="css/style.css" type="text/css"/> <link rel="stylesheet" href="css/LV2012.css" type="text/css"/> <link rel="stylesheet" href="js/libs/plugins/autocomplete/jquery.autocomplete.css" type="text/css"/> <style type="text/css">#loadingPanel{width:350px;padding:15px;margin:0 auto;background-color:#FFF;color:#000;text-align:center;font-size:1.1em;border:4px solid #666;z-index:999;position:absolute;top:250px}#loadingPanel img{margin:1em 0 2em 0}#loadingOverlay,.loading{background-color:#FFF;-ms-filter:"alpha(opacity=60)";filter:alpha(opacity = 60);opacity:.6;width:100%;z-index:990;position:absolute;padding:0;margin:0}.loading{background-image:url(img/ajax-loader.gif);background-repeat:no-repeat;background-position:5px 5px;z-index:2;padding-left:30px}.loading.inline{position:relative;background-position:5px center;margin:1.5em 0;font-weight:bold;font-size:1.2em;line-height:1.25em;color:#999}.loadingKandidaten{background-image:url(img/ajax-loader.gif);background-repeat:no-repeat;background-position:5px 5px}.error .loading.inline{background-image:none}.timeout{background-image:none;background-color:#f00;color:#fff;font-weight:bold;text-align:center;-ms-filter:"alpha(opacity=50)";filter:alpha(opacity = 50);opacity:.5}.timeout p{background-color:#f00;padding:4px;font-size:1.2em}#graph_quickuitslagen_loading{z-index:99}#mobileMsg{margin:1em 0;display:block;text-align:center}#mobileMsg a{padding:5px;height:2em;background-color:#CCC;font-weight:bold}#mobile_noSVG{padding:1em;background-color:#999;color:white;font-weight:bold;margin:.5em 0}#aria{padding-top:.25em}#aria h2{font-size:1em}</style> <script src="js/libs/modernizr-2.0.6.min.js"></script></head><body><div id="loading" style="display:none;"> <div id="loadingOverlay">&nbsp;</div> <div id="loadingPanel"><p><img src="img/logo_LV2012.gif" alt="Verkiezingen 2012, vlaanderenkiest.be" width="205" height="56"/></p><p id="loadingMsg">Een momentje a.u.b. - de desktop website wordt geladen</p><p id="mobileMsg"></p></div> </div> <script>var mobileURL="m.vlaanderenkiest.be",mobileURLMsg='<a href="http://'+mobileURL+'/"><img style="padding-right: 4px;" src="img/mobile.gif" alt="Naar de resultaten op de mobiele site">Ga naar de mobiele versie</a>';var trace=function(){},timeout=90;var loadingEl=document.getElementById("loading"),panelEl=document.getElementById("loadingPanel"),msgEl=document.getElementById("loadingMsg"),mobMsgEl=document.getElementById("mobileMsg"),overlayEl=document.getElementById("loadingOverlay");var supportsSVG;var loading={timer:false,start:function(){if(this.is_mobile()){document.write('<link rel="stylesheet" href="css/mob_styles.css" type="text/css" />');mobMsgEl.innerHTML=mobileURLMsg;supportsSVG=document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure","1.1")}if(loadingEl&&overlayEl){loadingEl.style.display="block";var c=this._getWidth()||1500;var d=this._getHeight()||1500;overlayEl.style.height=d+"px";panelEl.style.left=(c-350)/2+"px";loading.timer=window.setTimeout(loading.onTimeout,timeout*1000)}},retry:function(){window.location.reload()},onTimeout:function(){loading.setError("Fout: de applicatie kon niet correct geladen worden.")},setError:function(c,d){var d=d||true;if(d){c+='<br/><a href="/" onclick="loading.retry();return false;" /><img style="padding-right: 4px" src="img/desktop.gif"alt="Naar de resultaten op de desktop site">Klik hier om opnieuw te proberen</a>';c+="<br/>"+mobileURLMsg}msgEl.innerHTML=c},done:function(){window.clearTimeout(loading.timer);loadingEl.style.display="none"},_getWidth:function(){var b=document;return Math.max(Math.max(b.body.scrollWidth,b.documentElement.scrollWidth),Math.max(b.body.offsetWidth,b.documentElement.offsetWidth),Math.max(b.body.clientWidth,b.documentElement.clientWidth))},_getHeight:function(){var b=document;return Math.max(Math.max(b.body.scrollHeight,b.documentElement.scrollHeight),Math.max(b.body.offsetHeight,b.documentElement.offsetHeight),Math.max(b.body.clientHeight,b.documentElement.clientHeight))},is_mobile:function(){if(typeof this._is_mobile=="undefined"){var h=["android","webos","iphone","ipad","hpwOS","blackberry"];var g=false,f=0,e=h.length;while(!g&&f<e){g=new RegExp(h[f++],"i").test(navigator.userAgent)}this._is_mobile=g}return this._is_mobile},usesGCF:function(){try{var d=new ActiveXObject("ChromeTab.ChromeFrame");if(d){return true}}catch(c){}return false}};loading.start();</script> <div id="container"> <div id="dropshadow"> <header> <div id="logo"><a href="/"><img src="img/logo_LV2012.gif" alt="Verkiezingen 2012, vlaanderenkiest.be" width="205" height="56"/></a></div> <div id="utilities"><ul><li class="update">Statische website</li> <li class="last"><a href="/">Herlaad pagina</a></li></ul></div> <a href="http://abb.vlaanderenkiest.be" target="_blank" id="link-vlaanderenkiest">  </a><ul id="nav"><li class="actief"><h1>Gemeente</h1></li> <li><h1><a href="provincie/provincie.html">Provincie</a></h1></li> <li><h1><a href="stadsdistrict/stadsdisctrict.html">Stadsdistrict</a></h1></li> <li><h1><a href="ocmw/ocmw.html">OCMW</a></h1></li></ul><div id="aria"><h2><a href="http://m.vlaanderenkiest.be">Versie voor blinden en slechtzienden</a></h2><a href='javascript:window.location="http://"+mobileURL+ "#/" + app.appState.get("type") + (app.appState.get("currentNis") && (app.appState.get("type") != "provincie" || app.appState.get("currentNis").substring(0,1)=="D") ? "/" + app.appState.get("currentNis") : "") '> <img style="padding-right: 4px;" src="img/mobile.gif" alt="Naar de resultaten op de mobiele site">Mobiele website</a></div> </header> <div id="main" role="main"> <div id="col-left"> <div id="col-left-top"></div> <div id="searchbox"></div> <div id="col-left-bottom"></div> <div class="logos"><a href="#" target="_blank" onclick=""><img src="img/logo_abb.gif" alt="Agentschap voor Binnenlands Bestuur"/></a> </div> </div> <div id="col-right"> <div id="mapItems"><h2>Klik op een lijst om de behaalde stempercentages weer te geven op de kaart</h2><div id="lijstbuttons"></div> <div id="dropdownform"></div> <div id="legend"></div> <div id="map"> <!--[if lt IE 9]><div id="needsFlash" class="hidden"><h3>Voor het weergeven van de kaart in deze browser heeft u de Flash plugin nodig</h3> <p><a href="http://get.adobe.com/flashplayer/" target="_blank">Download hier de Flash Player plugin</a> als de kaart niet weergegeven wordt</p></div><![endif]--> <div class="canvas"> <div id="map_gemeente" class="map"></div> <div id="map_provincie" class="map"></div> <div id="map_district" class="map"></div> <div id="map_ocmw" class="map"></div> </div> </div> <div id="quickResult" class="hidden"> <div id="quickArrow"></div> <div id="graph_quickuitslagen" class="graphdiv"></div> </div><p id="mapnote" class="noot">Klik op de kaart voor gedetailleerde resultaten</p></div> <div id="resultBar" class="resultBar"></div><ul id="breadcrumb"></ul><div id="results"> <div id="sub-tabBar"></div> <div id="sub-tab-content"> <div id="results_uitslagen" class="hidden"> <div id="tabel_uitslagen2012"></div> <div id="graph_uitslagen2012" class="graphdiv"></div> <div id="graph_zetels2012" class="graphdiv"></div> <a href="top" class="jump icon-top" title="Spring naar top van pagina"><span class="icon"><em></em></span>Top</a><h4>Resultaten 2006</h4><div id="tabel_uitslagen2006"></div> <div id="graph_uitslagen2006" class="graphdiv"></div> <div id="graph_zetels2006" class="graphdiv"></div> </div> <div id="results_kandidaten" class="hidden"> <div id="overview_verkozenkandidaten">&nbsp;</div> </div> <div id="results_statistieken" class="hidden"><h4>Stemmen</h4><div id="table_statsvotes"></div> <div class="conditional"><h4>Verdeling van de verkozenen volgens leeftijd en geslacht</h4><div id="table_genderage"></div> <div id="graph_genderage" class="graphdiv"></div> </div> </div> <a href="top" class="jump icon-top" title="Spring naar top van pagina"><span class="icon"><em></em></span>Top</a></div> </div> </div> </div> <footer></footer> </div> </div> <script type="text/template" id="mobile_noSVG_template">
+ <div id="mobile_noSVG">
+ <p>Opgelet: met deze browser kan u de resultaten raadplegen, maar niet de kaart en zetelverdelinggrafieken.
+ Gebruik een browser als bv. Opera Mobile of Firefox Mobile om deze te kunnen bekijken.</p>
+ </div>
+</script> <script type="text/template" id="dropdownform_template">
+ <h2><label for="dropdownform">Weergave</label></h2>
+
+ <form name="form">
+ <select name="mapChoices" id="mapChoices" class="select" <%= enabled %> >
+ <option value="party"
+ <%= party %> ><%= defaultOption %></option>
+ <option value="age"
+ <%= age %> >Gemiddelde leeftijd van de verkozenen</option>
+ <option value="gender"
+ <%= gender %> >Percentage vrouwelijke verkozenen</option>
+
+ </select>
+ </form>
+</script> <script type="text/template" id="breadcrumb_template">
+ <li title="<%= electionFullName %>"><%= electionFullName %><span class="icon"><em></em></span></li>
+ <li title="Provincie" class="<%= provincieClass %>"><%= provincie %><span class="icon"><em></em></span></li>
+ <li title="Provinciedistrict" class="<%= districtClass %>"><%= district %><span class="icon"><em></em></span></li>
+ <li class="last <%= gemeenteClass %>" title="Gemeente of Stadsdistrict"><%= naam %></li>
+</script> <script type="text/template" id="legend_template">
+ <div class="title"><h2>Legende</h2></div>
+ <dl>
+ <%= rows %>
+ </dl>
+</script> <script type="text/template" id="item_legend_template">
+ <dt style="background-color: <%= tint %>;"></dt>
+ <dd style="border-left-color:<%= tint %>"><%= label %></dd>
+</script> <script type="text/template" id="sub-tabBar_template">
+ <ul id="sub-nav">
+ <li><h3><a id="tab_uitslagen" href="#uitslag">Uitslagen</a></h3></li>
+ <li class="conditional"><h3><a id="tab_kandidaten" href="#kandidaten" class="hidden">Verkozen kandidaten</a>
+ </h3></li>
+ <li><h3><a id="tab_statistieken" href="#statistieken" class="hidden">Statistieken</a></h3></li>
+ </ul>
+
+</script> <script type="text/template" id="row_uitslagen">
+ <tr id="<%= rowID %>" data-party="<%= lijstnr %>">
+ <td class="center arrow">
+ <a href="#" class="bt-candidates" title="Toon kandidaten voor <%= lijstnaam %>"><span class="icon"><em></em></span></a>
+ </td>
+ <td><a href="#" class="bt-candidates" title="Toon kandidaten voor <%= lijstnaam %>"><%= lijstnr %></a></td>
+ <td><a href="#" class="bt-candidates" title="Toon kandidaten voor <%= lijstnaam %>"><%= lijstnaam %></a></td>
+ <td class="right <%= noDataClass %>"><span
+ class="conditional"><% print(app.tools.formatNumber(stemmen)); %></span></td>
+ <td class="right <%= noDataClass %>"><span
+ class="conditional"><% print(app.tools.formatFloat(percent,1)); %></span></td>
+ <td class="right <%= zetelClass %>"><span class="conditional"><%= zetels %></span></td>
+ </tr>
+ <tr id="<%= rowID %>_kandidaten" class="hidden lst-kandidaten">
+ <td class="white">&nbsp;</td>
+ <td id="<%= rowID %>_kandidatenLijst" colspan="5" class="loadingKandidaten">
+
+ <%= tablehtml %>
+
+ </td>
+ </tr>
+</script> <script type="text/template" id="uitslagen_template">
+ <table width="100%" border="0" cellspacing="1" class="uitslagen">
+ <tr>
+ <th></th>
+ <th>
+ <div align="left"><a href="#" data-sort="lijstnr" class="bt-sort"
+ title="Sorteer op lijstnummer">Nr.<span class="icon"><em></em></span></a></div>
+ </th>
+ <th>
+ <div align="left"><a href="#" data-sort="lijstnaam" class="bt-sort" title="Sorteer op lijst">Lijst<span
+ class="icon"><em></em></span></a></div>
+ </th>
+ <th class="right"><a href="#" data-sort="stemmen" class="bt-sort"
+ title="Sorteer op aantal stemmen">Stemmen<span class="icon"><em></em></span></a></th>
+ <th class="right"><a href="#" data-sort="percent" class="bt-sort" title="Sorteer op percentage">%<span
+ class="icon"><em></em></span></a></th>
+ <th class="right"><a href="#" data-sort="zetels" class="bt-sort"
+ title="Sorteer op aantal zetels">Zetels<span class="icon"><em></em></span></a></th>
+ </tr>
+
+ <%= rows %>
+
+ <tr>
+ <td colspan="3" class="white">&nbsp;</td>
+ <td class="right darkSkin"><%= totaal.stemmen %></td>
+ <td class="right darkSkin"><%= totaal.percent %></td>
+ <td class="right darkSkin <%= zetelClass %>"><%= totaal.zetels %></td>
+ </tr>
+ </table>
+</script> <script type="text/template" id="graph_uitslagen_template">
+
+ <div class="resultGraphNoBg">
+ <span class="control bt-left" title="scroll naar links" style="display:none;">Naar links</span>
+
+ <div id="slidesContainer" style="overflow: hidden;">
+ <div class="slide">
+
+ <ul class="barchart">
+ <%= rows %>
+ </ul>
+
+ <div class="axistitle">Lijst:</div>
+
+ </div>
+
+ </div>
+ <div class="noot"><%= graphlabel %></div>
+ <span class="control bt-right" title="scroll naar rechts" style="display:none;">Naar rechts</span>
+
+ </div>
+ <%= graphtitleHTML %>
+
+</script> <script type="text/template" id="graph_uitslagen_item_template">
+ <li style="left:<%= left %>px;">
+ <p style="height: <%= height%>px; background-color:<%= lijstkleur %>;border-color:<%= lijstkleur %>;"><span><em><%
+ print(app.tools.formatFloat(percent)); %>%</em></span></p>
+ <strong><%= lijstnr %> <%= lijstnaam %></strong>
+ </li>
+</script> <script type="text/template" id="graph_zetelverdeling_template">
+ <div class="marginfix">
+ <div class="resultGraphNoBg">
+ <!-- <svg id="<%= svgId%>" class="zetelverdelingGraph" width="720" height="400"/> -->
+ <div id="<%= svgId%>" class="zetelgraph"></div>
+ <p id="<%= svgId%>_label" class="noot">&nbsp;<!-- set via view --></p>
+ </div>
+ </div>
+</script> <script type="text/template" id="table_statsvotes_template">
+ <table width="100%" cellspacing="1" border="0" class="uitslagen">
+ <tbody>
+ <tr>
+ <td class="white">&nbsp;</td>
+ <th width="70" class="right">Aantal</th>
+ <th width="70" title="% kiezers" class="right">%</th>
+ <th width="70" title="% stemmen" class="right">%</th>
+ </tr>
+ <tr>
+ <td>Ingeschreven kiezers</td>
+ <td class="right"><% print(app.tools.formatNumber(voters)); %></td>
+ <td class="right">100</td>
+ <td class="empty"></td>
+ </tr>
+ <tr>
+ <td>Uitgebrachte stemmen</td>
+ <td class="right"><% print(app.tools.formatNumber(votes)); %></td>
+ <td class="right"><% print(app.tools.formatFloat(pct.votes)); %></td>
+ <td class="right"><%= pct.totalvotes %></td>
+ </tr>
+ <tr>
+ <td>Geldige stemmen</td>
+ <td class="right"><% print(app.tools.formatNumber(valid)); %></td>
+ <td class="empty"></td>
+ <td class="right"><% print(app.tools.formatFloat(pct.valid)); %></td>
+ </tr>
+ <tr>
+ <td>Blanco en ongeldige stemmen</td>
+ <td class="right"><% print(app.tools.formatNumber(invalid)); %></td>
+ <td class="empty"></td>
+ <td class="right"><% print(app.tools.formatFloat(pct.invalid)); %></td>
+ </tr>
+ </tbody>
+ </table>
+</script> <script type="text/template" id="graph_gastats_template">
+
+
+ <div id="slidesContainer" style="overflow:hidden">
+
+ <div class="resultGraphNoBg">
+
+ <ul class="barchart stats">
+ <%= rows %>
+ </ul>
+
+
+ </div>
+
+ </div>
+ <div class="noot"><%= graphlabel %></div>
+
+ <%= graphtitleHTML %>
+
+</script> <script type="text/template" id="graph_gastats_item">
+ <li style="left:<%= left %>px;">
+ <strong><%= range %></strong>
+
+ <p style="height: <%= fheight%>px;" class="female" title="vrouwen"><span class="icon"><em><%= f %></em></span>
+ </p>
+
+ <p style="height: <%= mheight%>px;" class="male" title="mannen"><span class="icon"><em><%= m %></em></span></p>
+ </li>
+</script> <script type="text/template" id="graph_title_template">
+ <div class="graphtitle">
+ <h4><%= graphtitle %></h4>
+
+ <p>(Klik op <%= typeName %> voor details)</p>
+ </div>
+</script> <script type="text/template" id="uitslagen_kandidaten_template">
+ <table width="100%" cellspacing="1" class="subUitslagen" data-rowid="<%= rowID %>">
+ <tbody>
+ <tr>
+ <th class="<%= sortClass['volgnummer'] %>" width="48px">
+ <div align="left"><a href="#" data-sort="volgnummer" class="bt-sortk" title="Sorteer op plaats">Plaats&nbsp;<span
+ class="icon"><em></em></span></a></div>
+ </th>
+ <th class="<%= sortClass['naam'] %>">
+ <div align="left"><a href="#" data-sort="naam" class="bt-sortk" title="Sorteer op naam">Naam<span
+ class="icon"><em></em></span></a></div>
+ </th>
+ <th class="right <%= sortClass['naamstemmen'] %>"><a href="#" data-sort="naamstemmen" class="bt-sortk"
+ title="Sorteer op aantal naamstemmen">Naamstemmen<span
+ class="icon"><em></em></span></a></th>
+ <th class="right <%= sortClass['titularis'] %>"><a href="#" data-sort="titularis" class="bt-sortk"
+ title="Sorteer op titularissen">Titularis<span
+ class="icon"><em></em></span></a></th>
+ <th class="right <%= sortClass['opvolger'] %>"><a href="#" data-sort="opvolger" class="bt-sortk"
+ title="Sorteer op opvolgers">Opvolger<span
+ class="icon"><em></em></span></a></th>
+ </tr>
+ <%= rows %>
+
+ </tbody>
+ </table>
+</script> <script type="text/template" id="row_kandidaat_template">
+ <tr>
+ <td><%= volgnummer %></td>
+ <td><%= naam %></td>
+ <td class="<%= naamstemmenClass %>"><% print(app.tools.formatNumber(naamstemmen)); %></td>
+ <td class="<%= volgnummerClass %>">
+ <%= titularis %>
+ </td>
+ <td class="<%= volgnummerClass %>">
+ <%= opvolger %>
+ </td>
+ </tr>
+</script> <script type="text/template" id="table_naamstemmen_template">
+ <table width="100%" cellspacing="1" class="uitslagen" id="tabel_naamstemmen_<%= gid %>">
+ <caption>
+ <%= nummer %>.&nbsp;
+ <img src="<%= logo %>" alt="<%= naam %>" title="<%= naam %>" class="<%= imgClass %>"/>
+ <span class="<%= lijstNaamClass %>"><%= naam %></span>
+ </caption>
+
+ <tr>
+ <th width="30">
+ <div align="right">Rangorde</div>
+ </th>
+ <th>
+ <div align="left">Naam</div>
+ </th>
+ <th width="65">
+ <div align="right">Naamstemmen</div>
+ </th>
+ </tr>
+ <%= rows %>
+
+ </table>
+</script> <script type="text/template" id="item_naamstemmen_template">
+ <tr>
+ <td class="right <%= orderCSS %>"><%= rangorde %></td>
+ <td class="left"><%= naam %></td>
+ <td class="right"><% print(app.tools.formatNumber(stemmen)); %></td>
+ </tr>
+</script> <script type="text/template" id="table_genderage_template">
+ <table width="100%" cellspacing="1" border="0" class="uitslagen">
+ <tbody>
+ <tr>
+ <th>
+ <div align="left">Leeftijdscategorie</div>
+ </th>
+ <th width="70" class="right">Vrouwen (%)</th>
+ <th width="70" class="right">Vrouwen</th>
+ <th width="70" class="right">Mannen</th>
+ <th width="70" class="right">Totaal</th>
+ <th width="70" class="right">Totaal (%)</th>
+ </tr>
+
+ <!-- rows -->
+ <%= rows %>
+
+ <tr>
+ <td class="white">&nbsp;</td>
+ <td class="white right">&nbsp;</td>
+ <td class="darkSkin right"><%= totaal.f %></td>
+ <td class="darkSkin right"><%= totaal.m %></td>
+ <td class="darkSkin right"><%= totaal.all %></td>
+ <td class="darkSkin right"><% print(app.tools.formatFloat(totaal.pct)); %>%</td>
+ </tr>
+ </tbody>
+ </table>
+</script> <script type="text/template" id="row_genderage">
+ <tr>
+ <td><%= range %></td>
+ <td class="right"><% print(app.tools.formatFloat(fpct,1)); %>%</td>
+ <td class="right"><%= f %></td>
+ <td class="right"><%= m %></td>
+ <td class="right"><%= total %></td>
+ <td class="right"><% print(app.tools.formatFloat(totalpct,1)); %>%</td>
+ </tr>
+</script> <script type="text/template" id="utilities_template">
+ <form>
+ <ul>
+ <li class="update"><%= lastUpdated %></li>
+ <li class="last">
+ <input type="checkbox" id="btUpdates" value="" />
+ <label for="btUpdates" title="<%= tooltip%>">
+ &nbsp;Automatisch bijwerken</label>
+ </li>
+ </ul>
+ </form>
+
+
+ <div id="errorPopup">
+ <label for="btUpdates" title="Klik om opnieuw te proberen">
+ <p>De connectie met de server werd onverwacht verbroken<br/>en de gegevens worden niet meer automatisch
+ bijgewerkt.</p>
+
+ <p>Klik hier om opnieuw te proberen.</p>
+ </label>
+ </div>
+
+</script> <script type="text/template" id="resultBar_template">
+ <div class="<%= partijNaamClass %>">
+ <div id="council" class="<%= councilClass %>"> <%= naam %></div>
+ <div class="counter"><%= geteld %></div>
+ <div class="label"><%= sterkst %></div>
+ <div class="party">
+ <img src="<%= logo %>" class="<%= imgClass %>" alt="<%= partijnaam %>" title="<%= partijnaam %>"/>
+ <%= partijNaam %>
+ </div>
+ <div class="kleurlabel" style="background-color: <%= kleur %>"></div>
+ <div class="rate"><%= percent %> <%= leeftijd %> <%= verkozenVrouwen %></div>
+ </div>
+</script> <script type="text/template" id="lijstbuttons_template">
+ <div class="lijst" title="Sterkste lijst"><a id="partij_0" data-gid="0" href="">Sterkste <br/>lijst</a></div>
+ <%= rows %>
+</script> <script type="text/template" id="single_lijstbutton_template">
+ <div class="lijst">
+ <a id="partij_<%= id %>" data-gid="<%= id %>" href="#">
+ <img src="<%= logo %>" alt="<%= naam %>" title="<%= naam %>"/></a>
+ <span style="border-bottom: 3px solid <%= kleur %>;"></span>
+ </div>
+</script> <script type="text/template" id="nav_template">
+ <li id="tab_gemeente"><h1><a href="#gemeente">Gemeente</a></h1></li>
+ <li id="tab_provincie"><h1><a href="#provincie">Provincie</a></h1></li>
+ <li id="tab_district"><h1><a href="#district">Stadsdistrict</a></h1></li>
+ <li id="tab_ocmw"><h1><a href="#ocmw">OCMW</a></h1></li>
+</script> <script type="text/template" id="searchbox_template">
+ <span class="<%= searchVisible %>">
+ <h2><label for="searchfield"><%= searchLabel %></label></h2>
+ <input type="text" class="input" style="width:171px;" id="searchfield"/>
+ <p class="buttons"><input id="btResults" type="button" value="Toon resultaten" class="button-01"/></p>
+ </span>
+
+ <h2><%= searchIntro %></h2>
+ <ul id="navlist">
+ <img src="img/ajax-loader.gif"/></ul></script> <script type="text/template" id="loadingOverlay_template"> <div id="<%= overlayID %>" class="loading">&nbsp;</div></script> <script type="text/template" id="loading_template">
+ <div class="loading inline">De uitslagen voor <%= naam %> worden geladen...</div>
+</script> <!--[if lte IE 8]><script src="js/libs/svgweb/svg.js" data-path="js/libs/svgweb"></script><![endif]--> <script src="js/libs/raphaeljs/raphael-min.js"></script> <script src="js/libs/jquery-1.7.2.min.js"></script> <script src="js/libs/backbone/json2.js"></script> <script src="js/libs/backbone/underscore-min.js"></script> <script src="js/libs/backbone/backbone-min.js"></script> <script src="js/libs/plugins/autocomplete/jquery.autocomplete.js"></script> <script src="rsrc/admin_hierarchy-1.0.0.js"></script> <script src="js/libs/searchbox.js"></script> <script src="js/libs/objectwalker.js"></script> <script src="js/models-1.0.1.js"></script> <script src="js/collections-1.0.1.js"></script> <script src="js/views-1.0.3.js"></script> <script src="js/routers-1.0.0.js"></script> <script src="js/app-1.0.0.js"></script></body></html>
