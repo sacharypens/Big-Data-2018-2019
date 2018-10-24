@@ -11,7 +11,7 @@ Ik hoop bij te leren over:
  * Werken met CVS bestanden in Python
 
 Ik ga starten bij de volgende website:
-	* [Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/)
+ * [Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/)
 
 Scraping zoals hierboven wordt uitgelegd was niet voldoende voor wat ik wilde doen. Dit zou alleen werken voor statische websites. Daarom ben ik begonnen met (https://www.seleniumhq.org/)[Selenium]. Het is een tool om browsers te automatiseren.
 
