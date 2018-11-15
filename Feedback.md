@@ -1,0 +1,3 @@
+# 8-11-2018
+
+Ik merk dat je de gemeenteraadsverkiezingen op finished gezet hebt. Wil dat zeggen dat je alle data hebt, en dat je ze nog gaat verwerken in een jupyter notebook? Want dat zou goed zijn. Ik merk ook dat je al op jupyter geoefend hebt, maar zie dus nog geen notebook met grafieken...
