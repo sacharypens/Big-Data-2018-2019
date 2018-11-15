@@ -1,0 +1,4 @@
+
+import circle
+
+circle.func()
