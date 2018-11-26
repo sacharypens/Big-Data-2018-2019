@@ -9,7 +9,7 @@ from edX: [Introduction to Python: Creating Scalable, Robust, Interactive Code](
 from edX: [Foundations of Data Science: Computational Thinking with Python](https://courses.edx.org/courses/course-v1:BerkeleyX+Data8.1x+1T2018/course/)
 (stopped)
 
-from Udemy: [Python for Data Science and Machine Learning Bootcamp ](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/) (Starting...)
+from Udemy: [Python for Data Science and Machine Learning Bootcamp ](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/) (Section: 6, video: 26) (total sections: 26, total videos: 149)
 
 # My projects #
 
