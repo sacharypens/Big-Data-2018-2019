@@ -18,3 +18,6 @@ Het blijft, ook zonder de AI, wel een goed project. Vooral als je erna dan nog w
 
 Kijk ik ernaast of ben je nog niet begonnen aan de analyse van je data?
 
+# 14-12
+
+Je jupyter-notebook ziet er al goed uit. Zorg je nog voor wat spreidingsgrafieken en een correlatie?
