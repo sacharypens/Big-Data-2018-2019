@@ -14,6 +14,6 @@ from Udemy: [Python for Data Science and Machine Learning Bootcamp ](https://www
 # My projects #
 
   * Gemeenteraadsverkiezing scraper (finished)
-  * Statistics on Gemeenteraadsverkiezing (Working on it)
+  * Statistics on Gemeenteraadsverkiezing (finished)
   * Learning app (Writing on it...)
   * Writing Progress App (Writing on it...)
