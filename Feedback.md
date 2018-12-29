@@ -21,3 +21,11 @@ Kijk ik ernaast of ben je nog niet begonnen aan de analyse van je data?
 # 14-12
 
 Je jupyter-notebook ziet er al goed uit. Zorg je nog voor wat spreidingsgrafieken en een correlatie?
+
+# 29-12
+
+Als ik het zo bekijk lijkt je tweede project (de writing-progress-app) me ondertussen interessanter dan het eerste (de learning-app). De learning-app had interessant geweest als je al data had (dus niet alleen de vragen, maar ook de antwoorden van vierhonderd verschillende mensen), maar zoals het er nu uitziet ga je een applicatie schrijven waar je vragen kan insteken die je dan kan beantwoorden. Dat zou een erg interessant project zijn als je APP had gekozen. Maar je zit in BI...
+
+De tweede app biedt meer perspectieven omdat je daarbij wel externe gegevens krijgt (hetgeen hij geschreven heeft) en er een visualisatie op kan doen. Je zou zelfs verder kunnen gaan, en eens je dat programma hebt het toepassen op bestaande boeken (zie project gutenberg als je gratis officiele boeken wil. Officieuze boeken vind je ook wel.). Dan wordt het echt interessant: gebruiken "de betere" boeken veel verschillende woorden? Hebben ze lange of korte hoofdstukken/alinea's? Gebruiken ze veel speciale karakters (wat zou wijzen op een conversatie)? En hoe vergelijkt jou vriend's boek zich daarmee?
+
+Een uitbreiding: De verhalenmachine van Roald Dahl. Als je dat lukt krijg je 21/20.
